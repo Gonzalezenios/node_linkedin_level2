@@ -1,0 +1,28 @@
+{
+  "name": "countdown-clock",
+  "version": "1.0.0",
+  "description": "contador de horas",
+  "main": "countdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gonzalezenios/node_linkedin_level2.git"
+  },
+  "keywords": [
+    "clock",
+    "countdown",
+    "timer"
+  ],
+  "author": "Enio Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gonzalezenios/node_linkedin_level2/issues"
+  },
+  "homepage": "https://github.com/Gonzalezenios/node_linkedin_level2#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
