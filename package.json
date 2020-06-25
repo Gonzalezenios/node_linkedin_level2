@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/Gonzalezenios/node_linkedin_level2#readme",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "single-line-log": "^1.1.2"
   }
 }
