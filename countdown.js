@@ -1,5 +1,6 @@
 const parseArgs =  require ("minimist")
 const { stdout:log } = require ("single-line-log")
+const Timer  = require("tiny-timer")
 const { time } = parseArgs(process.argv)
 
 //
@@ -21,16 +22,11 @@ for (let i=0; i<count; i++) {
     message += "*";
 }
 
-log (message);
+const timer = new Timer ({ interval: 1000 })
 
-setTimeout( () => {
-    log("overwrites line");
-}, 2000)
+timer.on("tick", () => {
+    log (message);
+    message = message.slice(1)
+});
 
-//
-//  Print stars in-line
-//
-
-//
-// Run a timer and remove stars
-//
+timer.start(count * 1000);
