@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const parseArgs =  require ("minimist")
 const { stdout:log } = require ("single-line-log")
 const Timer  = require("tiny-timer")
