@@ -4,7 +4,7 @@
   "description": "contador de horas",
   "main": "countdown.js",
   "bin": {
-    "countdown":  "countdown.js"
+    "countdown": "countdown.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,6 +28,8 @@
   "dependencies": {
     "minimist": "^1.2.5",
     "single-line-log": "^1.1.2",
+    "socket.io": "^2.3.0",
+    "socket.io-client": "^2.3.0",
     "tiny-timer": "^1.5.0"
   }
 }
