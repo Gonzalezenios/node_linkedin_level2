@@ -1,0 +1,144 @@
+{
+  "responseDate": null,
+  "receptionSystems": [
+    { "id": 79, "code": "integration_thinkion" },
+    { "id": 57, "code": "desktop_app" }
+  ],
+  "registeredDate": "2020-08-08T16:05:57Z",
+  "state": "PENDING",
+  "restaurant": {
+    "id": 107923,
+    "deliveryTime": {
+      "id": 2,
+      "description": null,
+      "maxMinutes": 45,
+      "minMinutes": 30
+    },
+    "integrationCode": "",
+    "name": "S\u00e1ndwich del Club San Miguel",
+    "integrationName": "",
+    "country": {
+      "id": 3,
+      "currencySymbol": "$",
+      "name": "Argentina",
+      "timeOffset": -180,
+      "shortName": "ar",
+      "url": "https://www.pedidosya.com.ar",
+      "culture": "es_AR"
+    }
+  },
+  "express": false,
+  "preparationBuffer": 3,
+  "timestamp": 1596913598825,
+  "id": 218352101,
+  "details": [
+    {
+      "id": 398815906,
+      "total": 255,
+      "product": {
+        "id": 17791230,
+        "index": 16,
+        "globalIndex": 0,
+        "integrationCode": "1144",
+        "name": "Red Bull 250 ml",
+        "image": "1bce7b5a-8144-47b7-b4d9-6781db8185a3.jpg",
+        "integrationName": "",
+        "section": {
+          "id": 788866,
+          "index": 30,
+          "integrationCode": "0",
+          "name": "Gaseosas",
+          "integrationName": "0"
+        }
+      },
+      "optionGroups": [],
+      "unitPrice": 85,
+      "quantity": 3,
+      "subtotal": 255,
+      "notes": "",
+      "discount": 0
+    }
+  ],
+  "preparationTime": 15,
+  "discounts": [
+    {
+      "amount": 61,
+      "priority": 1,
+      "value": 130,
+      "code": "VOUCHER",
+      "type": "VALUE",
+      "notes": "PEYA-13E7ED48-8F92-41E5-99F7-50F7843182FE-AMMYNY"
+    }
+  ],
+  "pickupDate": "2020-08-08T16:21:38Z",
+  "deliveryDate": "2020-08-08T16:33:14Z",
+  "attachments": [],
+  "whiteLabel": null,
+  "logistics": true,
+  "application": "ANDROID",
+  "pickup": false,
+  "payment": {
+    "total": 194,
+    "stampsDiscount": 0,
+    "subtotal": 255,
+    "online": true,
+    "discount": 61,
+    "id": 87,
+    "shipping": 0,
+    "paymentAmount": 0,
+    "amountNoDiscount": 255,
+    "tax": 0,
+    "discountType": "VALUE",
+    "currencySymbol": "$",
+    "discountNotes": "voucher: PEYA-13E7ED48-8F92-41E5-99F7-50F7843182FE-AMMYNY",
+    "shippingNoDiscount": 0,
+    "card": {
+      "issuer": "GLOBAL PROCESSING",
+      "operationType": "CREDIT",
+      "brand": "MASTERCARD"
+    },
+    "method": "Pago online",
+    "notes": ""
+  },
+  "portal": { "id": 1, "name": "Pedidos Ya" },
+  "dispatchDate": null,
+  "code": "EJD8OD91",
+  "rejectMessage": { "id": null, "descriptionPT": null, "descriptionES": null },
+  "deliveryTime": {
+    "id": null,
+    "description": null,
+    "maxMinutes": null,
+    "minMinutes": null
+  },
+  "address": {
+    "complement": "",
+    "phone": "11111111",
+    "area": "Campo de Mayo",
+    "corner": "Santa fe y quirno",
+    "cityId": 51,
+    "description": "R\u00edo  negro 430 esquina Santa fe y quirno",
+    "zipCode": "",
+    "street": "R\u00edo  negro",
+    "notes": "LONA VERDE Y REJAS NEGRAS",
+    "coordinates": "-34.5492,-58.6825",
+    "doorNumber": "430",
+    "city": "San Miguel"
+  },
+  "integrationCode": null,
+  "pushed": false,
+  "responseNotes": null,
+  "notes": "",
+  "preOrder": false,
+  "user": {
+    "id": 2639615,
+    "lastName": "R********",
+    "platform": "PEDIDOS_YA",
+    "email": "xxxxxxx@live.com.ar",
+    "isNew": false,
+    "name": "Lourdes",
+    "company": { "document": "", "name": "" },
+    "identityCard": null,
+    "type": "WEB_USER",
+    "orderCount": 80
+  }
+}
